@@ -1,15 +1,20 @@
 ---
 layout: page
-title: About
+  
 permalink: /about/
 ---
 
-Some information about you!
+Hello there! I am Jack Murphy, a freelance Web developer with one year’s experience building attractive, effective and relevant websites. Here are some projects I have written.
 
-### More Information
+## Portfolio
+[Stour Valley Baptist Church Website](http://stourvalleybaptistchurch.com/)  
+Responsive website compiled using Handlebars. Styled with Bootstrap.
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+[Curtain Crafts](http://curtaincrafts.co.uk/)  
+Simple website written in HTML, CSS and JavaScript, with Bootstrap styling.  
 
-[email@domain.com](mailto:email@domain.com)
+
+
+## Technical Skills  
+I use front-end technologies and have some experience using back-end technologies. I work primarily in HTML, CSS and Javascript. I have experience using Node.js and Gulp, as well as jQuery and the Bootstrap repository.
