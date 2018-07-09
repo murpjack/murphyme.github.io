@@ -13,7 +13,7 @@ Hello there! I am Jack Murphy, a freelance Web developer with one year’s exper
 Responsive website compiled using Handlebars. Styled with Bootstrap.
 
 
-[Curtain Crafts](http://curtaincrafts.co.uk/)  
+[Curtain Crafts Website](http://curtaincrafts.co.uk/)  
 Simple website written in HTML, CSS and JavaScript, with Bootstrap styling.  
 
 

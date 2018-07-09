@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 10px;
   padding: 0;
 
   @include mobile {
@@ -283,12 +283,13 @@ nav {
 footer {
   padding: 40px 0 120px;
   text-align: center;
+  color: #efefef;
 }
 
 .fab, .fas {
   color: white;
   font-size: 1.8em;
-  margin-left: 8px;
+  margin-left: 5px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
