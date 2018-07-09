@@ -28,7 +28,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 820px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%;
 }
@@ -282,12 +282,13 @@ nav {
 
 footer {
   padding: 40px 0 120px;
-  text-align: right;
+  text-align: center;
 }
 
 .fab, .fas {
   color: white;
-  font-size: 1.6em;
+  font-size: 1.8em;
+  margin-left: 8px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
