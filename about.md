@@ -19,4 +19,4 @@ Simple website written in HTML, CSS and JavaScript, with Bootstrap styling.
 
 
 ## Technical Skills  
-I use front-end technologies and have some experience using back-end technologies. I work primarily in HTML, CSS and Javascript. I have experience using Node.js and Gulp, as well as jQuery and the Bootstrap repository.
+I use front-end technologies and have some experience using back-end technologies. I work primarily in HTML, CSS and Javascript. I have experience using AngularJS and Node.js as well as jQuery and the Bootstrap repository.
