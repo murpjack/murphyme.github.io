@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 {:.site-name}
-Hello there! I am Jack Murphy, a freelance Web developer with one year’s experience building attractive, effective and relevant websites. Here are some projects I have written.
+Hello there! I am Jack Murphy, a freelance Web developer with one year’s experience building attractive, effective and relevant websites. Here are some projects I have worked on.
 
 
 ## Portfolio
