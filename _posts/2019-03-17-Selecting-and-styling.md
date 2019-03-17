@@ -55,8 +55,7 @@ This article is just a few ways to edit styles/ select elements in the DOM using
 
 2.  **Select an ID, node or class and traverse**  
     According to a few jsperf tests the best way to select an element is by selecting an object by its ID or node (eg. div, or table), or class and traversing to nearby elements.  
-     The reason that this is better than selecting individual elements is that there is just one interaction between the DOM and javascript script.  
-     **_ insert example test _**  
+     The reason that this is better than selecting individual elements is that there is just one interaction between the DOM and javascript script.    
     <https://javascript.info/dom-navigation>
 
 
