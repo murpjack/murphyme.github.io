@@ -1,31 +1,25 @@
----
----
-
-//
+--- ---//
 // IMPORTS
 //
-
 @import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
+@import "variables"; // Syntax highlighting @import is at the bottom of this file
 /**************/
 /* BASE RULES */
 /**************/
-
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
+
 .main-container {
   min-height: 550px;
-
 }
+
 .container {
   margin: 0 auto;
   max-width: 900px;
@@ -33,15 +27,18 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 10px;
   padding: 0;
-
   @include mobile {
     line-height: 1.4;
   }
@@ -49,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+
   a {
     color: inherit;
   }
@@ -74,13 +72,16 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+
+  &:active,
+  &:hover {
     color: $blue;
   }
 }
 
-ul, ol {
+ol,
+ul {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -93,27 +94,35 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
   margin: 0;
 }
 
-ul ul, ol ul {
+ol ul,
+ul ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+b,
+strong {
   font-weight: bold;
 }
 
 img {
+  display: block;
   max-width: 100%;
+  margin: 60px auto 90px;
 }
-
 // Fixes images in popup boxes from Google Translate
+
 .gmnoprint img {
   max-width: none;
 }
@@ -122,33 +131,31 @@ img {
   font-style: italic;
   color: $gray;
 }
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
 }
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
-
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-
 //
 // .masthead
 //
@@ -160,7 +167,6 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-
   @include mobile {
     text-align: center;
   }
@@ -171,7 +177,6 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
-
   @include mobile {
     float: none;
     display: block;
@@ -185,7 +190,6 @@ img {
 
 .site-info {
   float: left;
-
   @include mobile {
     float: none;
     display: block;
@@ -204,10 +208,9 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: -5px 0 0;
   color: $gray;
   font-size: 16px;
-
   @include mobile {
     margin: 3px 0;
   }
@@ -218,7 +221,6 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
-
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -232,14 +234,12 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-
     @include mobile {
       margin: 0 10px;
       color: $blue;
     }
   }
 }
-
 //
 // .main
 //
@@ -256,7 +256,7 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.8em 0.8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
@@ -286,12 +286,12 @@ footer {
   color: #efefef;
 }
 
-.fab, .fas {
+.fab,
+.fas {
   color: white;
   font-size: 1.8em;
   margin-left: 5px;
 }
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
