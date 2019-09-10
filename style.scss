@@ -1,9 +1,7 @@
----
----
-// IMPORTS
+--- ---// IMPORTS
 //
-@import "reset";
-@import "variables"; // Syntax highlighting @import is at the bottom of this file
+@import "/_sass/reset";
+@import "/_sass/variables"; // Syntax highlighting @import is at the bottom of this file
 /**************/
 /* BASE RULES */
 /**************/
@@ -24,7 +22,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 900px;
-  padding: 0px 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -134,6 +132,7 @@ img {
   color: $gray;
 }
 // Specify the color of the selection
+
 ::-moz-selection {
   color: $black;
   background: $lightGray;
@@ -200,7 +199,7 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 0px;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -230,15 +229,51 @@ nav {
     font-size: 16px;
   }
 
-  a {
+  .nav__link {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    position: relative;
     @include mobile {
       margin: 0 10px;
       color: $blue;
+    }
+    /* The border below each filter category */
+    &:after {
+      background-color: #fff;
+      content: "";
+      display: block;
+      height: 3px;
+      margin: 0 auto;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    &--initial:hover {
+      color: $header-link-color-initial;
+
+      &:after {
+        background-color: inherit;
+      }
+    }
+
+    &--secondary:hover {
+      color: $header-link-color-secondary;
+
+      &:after {
+        background-color: inherit;
+      }
+    }
+
+    &--tertiary:hover {
+      color: $header-link-color-tertiary;
+
+      &:after {
+        background-color: inherit;
+      }
     }
   }
 }
