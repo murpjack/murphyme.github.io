@@ -1,8 +1,11 @@
---- ---
+---
+---
+
+//
 // IMPORTS
 //
-@import "/_sass/reset";
-@import "/_sass/variables"; // Syntax highlighting @import is at the bottom of this file
+@import "reset";
+@import "variables"; // Syntax highlighting @import is at the bottom of this file
 /**************/
 /* BASE RULES */
 /**************/
@@ -233,6 +236,7 @@ nav {
   .nav__link {
     margin-left: 20px;
     color: $darkGray;
+    display: inline-block;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
