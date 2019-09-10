@@ -3,8 +3,6 @@ layout: post
 title: The state of React
 ---
 
-## What is React?
-
 React is a popular library for building interfaces. In a broad stroke it separates creation and rendering of elements in the DOM. This offers notable performance gains.
 React encourages breaking elements into smaller components, which can make even larger applications or pages more robust and scalable.
 
