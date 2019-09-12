@@ -24,9 +24,9 @@ body {
 }
 
 .container {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 900px;
-  padding: 0px 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -203,7 +203,7 @@ img {
 }
 
 .site-name {
-  margin: 0px;
+  margin: 0;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -223,7 +223,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin: 15px 0; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
   @include mobile {
@@ -238,9 +238,10 @@ nav {
     color: $darkGray;
     display: inline-block;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 600;
+    letter-spacing: 2px;
     position: relative;
+    transition: .1s all ease-in-out;
     @include mobile {
       margin: 0 10px;
       color: $blue;
@@ -250,18 +251,22 @@ nav {
       background-color: #fff;
       content: "";
       display: block;
-      height: 3px;
+      height: 0.35em;
       margin: 0 auto;
       position: relative;
       bottom: 0;
-      width: 100%;
+      width: 115%;
+      left: -5px;
+      border-radius: 100px;
+      transition: .1s all ease-in-out;
+
     }
 
     &--initial:hover {
       color: $header-link-color-initial;
 
       &:after {
-        background-color: inherit;
+        background-color: $header-link-color-initial;
       }
     }
 
@@ -269,7 +274,7 @@ nav {
       color: $header-link-color-secondary;
 
       &:after {
-        background-color: inherit;
+        background-color: $header-link-color-secondary;
       }
     }
 
@@ -277,7 +282,7 @@ nav {
       color: $header-link-color-tertiary;
 
       &:after {
-        background-color: inherit;
+        background-color: $header-link-color-tertiary;
       }
     }
   }
