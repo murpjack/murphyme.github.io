@@ -25,7 +25,7 @@ We will make our *.image:before* class have ‘width: 100%’ and instruct it th
 By adding padding-top to the *.image:before*, we determine the height of *.image__content* and its background-image.
 
 All that is left to do is to set the width of *.image* now that *.image__content* fills it and is set to the correct aspect-ratio.
-See below for a working example &darr. :point_down:
+See below for a working example &darr; . :point_down:
 
 **HTML**
 ```html
