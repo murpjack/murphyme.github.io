@@ -9,6 +9,7 @@
 /**************/
 /* BASE RULES */
 /**************/
+
 html {
   font-size: 100%;
 }
@@ -70,7 +71,8 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 35px 0;
+  line-height: 28px;
 }
 
 a {
@@ -113,6 +115,7 @@ ul ul {
 em,
 i {
   font-style: italic;
+  font-weight: 500;
 }
 
 b,
@@ -166,11 +169,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 0;
   border-bottom: 1px solid $lightGray;
   @include mobile {
     text-align: center;
@@ -210,6 +213,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  line-height: 80px;
 }
 
 .site-description {
@@ -223,7 +227,7 @@ img {
 
 nav {
   float: right;
-  margin: 15px 0; // @TODO: Vertically middle align
+  margin: 0; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
   @include mobile {
@@ -238,13 +242,15 @@ nav {
     color: $darkGray;
     display: inline-block;
     text-align: right;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2px;
+    line-height: 80px;
     position: relative;
-    transition: .1s all ease-in-out;
+    transition: 0.1s all ease-in-out;
     @include mobile {
+      color: $darkGray;
+      line-height: 40px;
       margin: 0 10px;
-      color: $blue;
     }
     /* The border below each filter category */
     &:after {
@@ -257,9 +263,8 @@ nav {
       bottom: 0;
       width: 115%;
       left: -5px;
-      border-radius: 100px;
-      transition: .1s all ease-in-out;
-
+      border-radius: 2px;
+      transition: 0.1s all ease-in-out;
     }
 
     &--initial:hover {
@@ -292,7 +297,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
