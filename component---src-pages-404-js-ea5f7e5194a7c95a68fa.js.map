@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":["NoPage"],"mappings":"2FAAA,wEAEe,SAASA,IACtB,OAAO","file":"component---src-pages-404-js-ea5f7e5194a7c95a68fa.js","sourcesContent":["import React from \"react\"\n\nexport default function NoPage() {\n  return <p>This page doesn't exist yet!</p>\n}\n"],"sourceRoot":""}
